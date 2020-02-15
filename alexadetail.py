@@ -10,4 +10,4 @@ data_tojson = json.loads(data)
 url = data_tojson["ALEXA"]["SD"][1]["POPULARITY"]["URL"]
 rank= data_tojson["ALEXA"]["SD"][1]["POPULARITY"]["TEXT"]
  
-print("site {site}, rank {rank}".format(site=url,rank=rank))
+print("site {site}, rank {rank}".format(site=url,rank=)
